@@ -1,0 +1,335 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.0 168020 11944 ?        Ss   10:52   0:01 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    10:52   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   10:52   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   10:52   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   10:52   0:00 [kworker/0:0H-events_highpri]
+root           9  0.0  0.0      0     0 ?        I<   10:52   0:00 [mm_percpu_wq]
+root          10  0.0  0.0      0     0 ?        S    10:52   0:00 [rcu_tasks_rude_]
+root          11  0.0  0.0      0     0 ?        S    10:52   0:00 [rcu_tasks_trace]
+root          12  0.0  0.0      0     0 ?        S    10:52   0:00 [ksoftirqd/0]
+root          13  0.1  0.0      0     0 ?        I    10:52   0:04 [rcu_sched]
+root          14  0.0  0.0      0     0 ?        S    10:52   0:00 [migration/0]
+root          15  0.0  0.0      0     0 ?        S    10:52   0:00 [idle_inject/0]
+root          16  0.0  0.0      0     0 ?        S    10:52   0:00 [cpuhp/0]
+root          17  0.0  0.0      0     0 ?        S    10:52   0:00 [cpuhp/1]
+root          18  0.0  0.0      0     0 ?        S    10:52   0:00 [idle_inject/1]
+root          19  0.0  0.0      0     0 ?        S    10:52   0:00 [migration/1]
+root          20  0.0  0.0      0     0 ?        S    10:52   0:00 [ksoftirqd/1]
+root          22  0.0  0.0      0     0 ?        I<   10:52   0:00 [kworker/1:0H-events_highpri]
+root          23  0.0  0.0      0     0 ?        S    10:52   0:00 [cpuhp/2]
+root          24  0.0  0.0      0     0 ?        S    10:52   0:00 [idle_inject/2]
+root          25  0.0  0.0      0     0 ?        S    10:52   0:00 [migration/2]
+root          26  0.0  0.0      0     0 ?        S    10:52   0:00 [ksoftirqd/2]
+root          27  0.0  0.0      0     0 ?        I    10:52   0:00 [kworker/2:0-cgroup_destroy]
+root          28  0.0  0.0      0     0 ?        I<   10:52   0:00 [kworker/2:0H-events_highpri]
+root          29  0.0  0.0      0     0 ?        S    10:52   0:00 [cpuhp/3]
+root          30  0.0  0.0      0     0 ?        S    10:52   0:00 [idle_inject/3]
+root          31  0.0  0.0      0     0 ?        S    10:52   0:00 [migration/3]
+root          32  0.0  0.0      0     0 ?        S    10:52   0:00 [ksoftirqd/3]
+root          34  0.0  0.0      0     0 ?        I<   10:52   0:00 [kworker/3:0H-events_highpri]
+root          35  0.0  0.0      0     0 ?        S    10:52   0:00 [cpuhp/4]
+root          36  0.0  0.0      0     0 ?        S    10:52   0:00 [idle_inject/4]
+root          37  0.0  0.0      0     0 ?        S    10:52   0:00 [migration/4]
+root          38  0.0  0.0      0     0 ?        S    10:52   0:00 [ksoftirqd/4]
+root          40  0.0  0.0      0     0 ?        I<   10:52   0:00 [kworker/4:0H-events_highpri]
+root          41  0.0  0.0      0     0 ?        S    10:52   0:00 [cpuhp/5]
+root          42  0.0  0.0      0     0 ?        S    10:52   0:00 [idle_inject/5]
+root          43  0.0  0.0      0     0 ?        S    10:52   0:00 [migration/5]
+root          44  0.0  0.0      0     0 ?        S    10:52   0:00 [ksoftirqd/5]
+root          46  0.0  0.0      0     0 ?        I<   10:52   0:00 [kworker/5:0H-events_highpri]
+root          47  0.0  0.0      0     0 ?        S    10:52   0:00 [cpuhp/6]
+root          48  0.0  0.0      0     0 ?        S    10:52   0:00 [idle_inject/6]
+root          49  0.0  0.0      0     0 ?        S    10:52   0:00 [migration/6]
+root          50  0.0  0.0      0     0 ?        S    10:52   0:01 [ksoftirqd/6]
+root          52  0.0  0.0      0     0 ?        I<   10:52   0:00 [kworker/6:0H-events_highpri]
+root          53  0.0  0.0      0     0 ?        S    10:52   0:00 [cpuhp/7]
+root          54  0.0  0.0      0     0 ?        S    10:52   0:00 [idle_inject/7]
+root          55  0.0  0.0      0     0 ?        S    10:52   0:00 [migration/7]
+root          56  0.0  0.0      0     0 ?        S    10:52   0:00 [ksoftirqd/7]
+root          58  0.0  0.0      0     0 ?        I<   10:52   0:00 [kworker/7:0H-events_highpri]
+root          59  0.0  0.0      0     0 ?        S    10:52   0:00 [kdevtmpfs]
+root          60  0.0  0.0      0     0 ?        I<   10:52   0:00 [netns]
+root          61  0.0  0.0      0     0 ?        I<   10:52   0:00 [inet_frag_wq]
+root          62  0.0  0.0      0     0 ?        S    10:52   0:00 [kauditd]
+root          63  0.0  0.0      0     0 ?        S    10:52   0:00 [khungtaskd]
+root          64  0.0  0.0      0     0 ?        S    10:52   0:00 [oom_reaper]
+root          65  0.0  0.0      0     0 ?        I<   10:52   0:00 [writeback]
+root          66  0.0  0.0      0     0 ?        S    10:52   0:00 [kcompactd0]
+root          67  0.0  0.0      0     0 ?        SN   10:52   0:00 [ksmd]
+root          68  0.0  0.0      0     0 ?        SN   10:52   0:00 [khugepaged]
+root         115  0.0  0.0      0     0 ?        I<   10:52   0:00 [kintegrityd]
+root         116  0.0  0.0      0     0 ?        I<   10:52   0:00 [kblockd]
+root         117  0.0  0.0      0     0 ?        I<   10:52   0:00 [blkcg_punt_bio]
+root         118  0.0  0.0      0     0 ?        I<   10:52   0:00 [tpm_dev_wq]
+root         119  0.0  0.0      0     0 ?        I<   10:52   0:00 [ata_sff]
+root         120  0.0  0.0      0     0 ?        I<   10:52   0:00 [md]
+root         121  0.0  0.0      0     0 ?        I<   10:52   0:00 [edac-poller]
+root         122  0.0  0.0      0     0 ?        I<   10:52   0:00 [devfreq_wq]
+root         123  0.0  0.0      0     0 ?        S    10:52   0:00 [watchdogd]
+root         125  0.0  0.0      0     0 ?        I<   10:52   0:00 [kworker/0:1H-kblockd]
+root         127  0.0  0.0      0     0 ?        S    10:52   0:00 [kswapd0]
+root         128  0.0  0.0      0     0 ?        S    10:52   0:00 [ecryptfs-kthrea]
+root         130  0.0  0.0      0     0 ?        I<   10:52   0:00 [kthrotld]
+root         131  0.0  0.0      0     0 ?        S    10:52   0:00 [irq/123-aerdrv]
+root         132  0.0  0.0      0     0 ?        S    10:52   0:00 [irq/123-pcie-dp]
+root         133  0.0  0.0      0     0 ?        S    10:52   0:00 [irq/124-aerdrv]
+root         134  0.0  0.0      0     0 ?        S    10:52   0:00 [irq/124-pcie-dp]
+root         135  0.0  0.0      0     0 ?        S    10:52   0:00 [irq/125-aerdrv]
+root         136  0.0  0.0      0     0 ?        S    10:52   0:00 [irq/125-pcie-dp]
+root         137  0.0  0.0      0     0 ?        I<   10:52   0:00 [acpi_thermal_pm]
+root         142  0.0  0.0      0     0 ?        I    10:52   0:00 [kworker/6:1-events]
+root         144  0.0  0.0      0     0 ?        I<   10:52   0:00 [vfio-irqfd-clea]
+root         145  0.0  0.0      0     0 ?        I<   10:52   0:00 [mld]
+root         146  0.0  0.0      0     0 ?        I<   10:52   0:00 [kworker/4:1H-events_highpri]
+root         147  0.0  0.0      0     0 ?        I<   10:52   0:00 [ipv6_addrconf]
+root         158  0.0  0.0      0     0 ?        I<   10:52   0:00 [kstrp]
+root         161  0.0  0.0      0     0 ?        I<   10:52   0:00 [zswap-shrink]
+root         169  0.0  0.0      0     0 ?        I<   10:52   0:00 [charger_manager]
+root         192  0.0  0.0      0     0 ?        I<   10:52   0:00 [kworker/5:1H-kblockd]
+root         227  0.0  0.0      0     0 ?        I<   10:52   0:00 [kworker/7:1H-events_highpri]
+root         229  0.0  0.0      0     0 ?        I<   10:52   0:00 [nvme-wq]
+root         230  0.0  0.0      0     0 ?        I<   10:52   0:00 [nvme-reset-wq]
+root         231  0.0  0.0      0     0 ?        I<   10:52   0:00 [nvme-delete-wq]
+root         235  0.0  0.0      0     0 ?        I<   10:52   0:00 [sdhci]
+root         236  0.0  0.0      0     0 ?        S    10:52   0:00 [irq/19-mmc0]
+root         237  0.0  0.0      0     0 ?        S    10:52   0:00 [irq/130-0000:00]
+root         238  0.0  0.0      0     0 ?        S    10:52   0:00 [scsi_eh_0]
+root         239  0.0  0.0      0     0 ?        I<   10:52   0:00 [scsi_tmf_0]
+root         240  0.0  0.0      0     0 ?        S    10:52   0:00 [scsi_eh_1]
+root         241  0.0  0.0      0     0 ?        I<   10:52   0:00 [scsi_tmf_1]
+root         242  0.0  0.0      0     0 ?        I    10:52   0:01 [kworker/u16:6-i915]
+root         245  0.0  0.0      0     0 ?        S    10:52   0:00 [irq/83-ELAN9008]
+root         247  0.4  0.0      0     0 ?        S    10:52   0:17 [irq/109-ELAN120]
+root         250  0.2  0.0      0     0 ?        I    10:52   0:07 [kworker/6:2-events]
+root         281  0.0  0.0      0     0 ?        S    10:52   0:00 [jbd2/nvme0n1p7-]
+root         282  0.0  0.0      0     0 ?        I<   10:52   0:00 [ext4-rsv-conver]
+root         287  0.0  0.0      0     0 ?        I<   10:52   0:00 [kworker/2:1H-events_highpri]
+root         290  0.0  0.0      0     0 ?        I<   10:52   0:00 [kworker/3:1H-kblockd]
+root         325  0.0  0.0      0     0 ?        I<   10:52   0:00 [kworker/1:1H-events_highpri]
+root         329  0.0  0.1  59888 25288 ?        S<s  10:52   0:00 /lib/systemd/systemd-journald
+root         344  0.0  0.0      0     0 ?        I<   10:52   0:00 [kworker/6:1H-events_highpri]
+root         361  0.0  0.0  24244  7560 ?        Ss   10:52   0:00 /lib/systemd/systemd-udevd
+root         367  0.0  0.0      0     0 ?        S<   10:52   0:00 [loop0]
+root         395  0.0  0.0      0     0 ?        S<   10:52   0:00 [loop1]
+root         410  0.0  0.0      0     0 ?        S<   10:52   0:00 [loop2]
+root         417  0.0  0.0      0     0 ?        S<   10:52   0:00 [loop3]
+root         418  0.0  0.0      0     0 ?        S<   10:52   0:00 [loop4]
+root         419  0.0  0.0      0     0 ?        S<   10:52   0:00 [loop5]
+root         421  0.0  0.0      0     0 ?        S<   10:52   0:00 [loop6]
+root         422  0.0  0.0      0     0 ?        S<   10:52   0:00 [loop7]
+root         424  0.0  0.0      0     0 ?        S<   10:52   0:00 [loop8]
+root         427  0.0  0.0      0     0 ?        S    10:52   0:00 [irq/147-mei_me]
+root         442  0.0  0.0      0     0 ?        S<   10:52   0:00 [loop9]
+root         444  0.0  0.0      0     0 ?        I<   10:52   0:00 [cfg80211]
+root         456  0.0  0.0      0     0 ?        I<   10:52   0:00 [led_workqueue]
+root         458  0.0  0.0      0     0 ?        I<   10:52   0:00 [cryptd]
+root         459  0.0  0.0      0     0 ?        S    10:52   0:01 [irq/152-iwlwifi]
+root         460  0.0  0.0      0     0 ?        S    10:52   0:00 [irq/153-iwlwifi]
+root         461  0.0  0.0      0     0 ?        S    10:52   0:00 [irq/154-iwlwifi]
+root         462  0.0  0.0      0     0 ?        S    10:52   0:00 [irq/155-iwlwifi]
+root         463  0.0  0.0      0     0 ?        S    10:52   0:00 [irq/156-iwlwifi]
+root         465  0.0  0.0      0     0 ?        S    10:52   0:00 [irq/157-iwlwifi]
+root         466  0.0  0.0      0     0 ?        S    10:52   0:00 [irq/158-iwlwifi]
+root         483  0.0  0.0      0     0 ?        S    10:52   0:00 [irq/159-iwlwifi]
+root         488  0.0  0.0      0     0 ?        S    10:52   0:00 [irq/160-iwlwifi]
+root         489  0.0  0.0      0     0 ?        S    10:52   0:00 [irq/161-iwlwifi]
+root         546  0.0  0.0      0     0 ?        S<   10:52   0:00 [loop10]
+root         598  0.0  0.0      0     0 ?        S    10:52   0:00 [card0-crtc0]
+root         599  0.0  0.0      0     0 ?        S    10:52   0:00 [card0-crtc1]
+root         600  0.0  0.0      0     0 ?        S    10:52   0:00 [card0-crtc2]
+root         616  0.0  0.0      0     0 ?        S<   10:52   0:00 [loop11]
+root         635  0.0  0.0      0     0 ?        S<   10:52   0:00 [loop12]
+root         708  0.0  0.0      0     0 ?        S<   10:52   0:00 [loop13]
+root         832  0.0  0.0      0     0 ?        S<   10:52   0:00 [loop14]
+systemd+     908  0.0  0.0  24264 13400 ?        Ss   10:52   0:00 /lib/systemd/systemd-resolved
+systemd+     909  0.0  0.0  90544  6012 ?        Ssl  10:52   0:00 /lib/systemd/systemd-timesyncd
+root         974  0.0  0.0 245000  9676 ?        Ssl  10:52   0:00 /usr/lib/accountsservice/accounts-daemon
+root         975  0.0  0.0   2548   772 ?        Ss   10:52   0:00 /usr/sbin/acpid
+avahi        978  0.0  0.0   8684  3952 ?        Ss   10:52   0:01 avahi-daemon: running [asus.local]
+root         979  0.0  0.0  12288  3116 ?        Ss   10:52   0:00 /usr/sbin/cron -f
+root         981  0.0  0.0  32628 10028 ?        Ss   10:52   0:00 /usr/sbin/cupsd -l
+message+     982  0.0  0.0   9860  6496 ?        Ss   10:52   0:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         988  0.0  0.1 489768 22556 ?        Ssl  10:52   0:03 /usr/sbin/NetworkManager --no-daemon
+root         998  0.0  0.0 231748  6512 ?        Ssl  10:52   0:00 /usr/sbin/iio-sensor-proxy
+root        1000  0.0  0.0  81968  3592 ?        Ssl  10:52   0:00 /usr/sbin/irqbalance --foreground
+root        1001  0.0  0.1  42548 20616 ?        Ss   10:52   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root        1005  0.0  0.0 248416 13212 ?        Ssl  10:52   0:00 /usr/lib/policykit-1/polkitd --no-debug
+syslog      1010  0.0  0.0 224352  5036 ?        Ssl  10:52   0:00 /usr/sbin/rsyslogd -n -iNONE
+root        1017  0.0  0.2 1392076 37188 ?       Ssl  10:52   0:02 /usr/lib/snapd/snapd
+root        1020  0.0  0.0 238476  6100 ?        Ssl  10:52   0:00 /usr/libexec/switcheroo-control
+root        1025  0.0  0.0  16696  8204 ?        Ss   10:52   0:00 /lib/systemd/systemd-logind
+root        1030  0.0  0.0  16300  5676 ?        Ss   10:52   0:00 /lib/systemd/systemd-machined
+root        1031  0.0  0.0 276764 10924 ?        Ssl  10:52   0:02 /usr/sbin/thermald --systemd --dbus-enable --adaptive
+root        1032  0.0  0.0 395804 14720 ?        Ssl  10:52   0:00 /usr/lib/udisks2/udisksd
+root        1034  0.0  0.0  14056  8988 ?        Ss   10:52   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi       1048  0.0  0.0   8348   328 ?        S    10:52   0:00 avahi-daemon: chroot helper
+root        1086  1.4  0.0  11376  8324 ?        SNs  10:52   0:51 /usr/sbin/preload -s /var/lib/preload/preload.state
+root        1094  0.0  0.0  14616  3260 ?        Ss   10:52   0:00 /usr/bin/vmware-usbarbitrator
+colord      1117  0.0  0.1 251856 16884 ?        Ssl  10:52   0:00 /usr/libexec/colord
+root        1118  0.0  0.0 178720 12852 ?        Ssl  10:52   0:00 /usr/sbin/cups-browsed
+root        1163  0.0  0.0 314460 10656 ?        Ssl  10:52   0:00 /usr/sbin/ModemManager
+root        1175  0.0  0.0 242476  9200 ?        Ssl  10:52   0:00 /usr/sbin/gdm3
+root        1191  0.0  0.0   8444  4576 ?        Ss   10:52   0:00 /usr/lib/bluetooth/bluetoothd
+root        1222  0.0  0.2 1562112 36136 ?       Ssl  10:52   0:00 /usr/sbin/libvirtd
+root        1223  0.0  0.1 120996 23108 ?        Ssl  10:52   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root        1224  0.0  0.0 317280 10304 ?        Sl   10:52   0:00 gdm-session-worker [pam/gdm-autologin]
+uzcoder     2537  0.0  0.0  19216 10592 ?        Ss   10:52   0:01 /lib/systemd/systemd --user
+uzcoder     2538  0.0  0.0 103892  3900 ?        S    10:52   0:00 (sd-pam)
+root        2565  0.0  0.0   2496   572 ?        S    10:52   0:00 bpfilter_umh
+uzcoder     2582  0.0  0.1 1674120 19944 ?       S<sl 10:52   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+uzcoder     2584  0.0  0.1 588148 24724 ?        SNsl 10:52   0:00 /usr/libexec/tracker-miner-fs
+uzcoder     2589  0.0  0.0 390516  8164 ?        SLl  10:52   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+root        2594  0.0  0.0 255280 10232 ?        Ssl  10:52   0:00 /usr/lib/upower/upowerd
+uzcoder     2598  0.0  0.0 166884  6464 tty2     Ssl+ 10:52   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+rtkit       2603  0.0  0.0 152936  2956 ?        SNsl 10:52   0:00 /usr/libexec/rtkit-daemon
+uzcoder     2607  2.9  0.6 606404 110720 tty2    Sl+  10:52   1:47 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+uzcoder     2611  0.0  0.0   9428  6548 ?        Ss   10:52   0:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+uzcoder     2631  0.0  0.0 242568  7828 ?        Ssl  10:52   0:00 /usr/libexec/gvfsd
+uzcoder     2661  0.0  0.0 382064  8252 ?        Sl   10:52   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+uzcoder     2678  0.0  0.0 320320 11964 ?        Ssl  10:52   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+uzcoder     2706  0.0  0.0 238572  6240 ?        Ssl  10:52   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+uzcoder     2714  0.0  0.0 238744  6320 ?        Ssl  10:52   0:00 /usr/libexec/gvfs-goa-volume-monitor
+uzcoder     2720  0.0  0.2 552380 34644 ?        Sl   10:52   0:00 /usr/libexec/goa-daemon
+libvirt+    2738  0.0  0.0   9244  2020 ?        S    10:52   0:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/lib/libvirt/libvirt_leaseshelper
+root        2739  0.0  0.0   9216   332 ?        S    10:52   0:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/lib/libvirt/libvirt_leaseshelper
+uzcoder     2825  0.0  0.0 321520 11452 ?        Sl   10:52   0:00 /usr/libexec/goa-identity-service
+uzcoder     2836  0.0  0.0 240976  6764 ?        Ssl  10:52   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+uzcoder     2842  0.0  0.0 319592  9240 ?        Ssl  10:52   0:00 /usr/libexec/gvfs-afc-volume-monitor
+root        2899  0.0  0.0      0     0 ?        S<   10:52   0:00 [krfcommd]
+uzcoder     2917  0.0  0.0 193540 15660 tty2     Sl+  10:52   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+uzcoder     2992  0.0  0.0   6040   452 ?        Ss   10:52   0:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+uzcoder     3014  0.0  0.0 309748  9152 ?        Ssl  10:52   0:00 /usr/libexec/at-spi-bus-launcher
+uzcoder     3019  0.0  0.0   7244  4280 ?        S    10:52   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+uzcoder     3025  0.0  0.0  92928  4296 ?        Ssl  10:52   0:00 /usr/libexec/gnome-session-ctl --monitor
+uzcoder     3032  0.0  0.1 489436 17428 ?        Ssl  10:52   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+uzcoder     3046  3.7  1.9 5577716 317336 ?      Ssl  10:52   2:17 /usr/bin/gnome-shell
+whoopsie    3080  0.0  0.0 253520 16040 ?        Ssl  10:52   0:00 /usr/bin/whoopsie -f
+kernoops    3093  0.0  0.0  11260   444 ?        Ss   10:52   0:00 /usr/sbin/kerneloops --test
+kernoops    3104  0.0  0.0  11260   444 ?        Ss   10:52   0:00 /usr/sbin/kerneloops
+root        3139  0.1  0.0 1375404 12352 ?       Sl   10:52   0:06 /opt/teamviewer/tv_bin/teamviewerd -d
+root        3203  0.0  0.0   8220   700 ?        Ss   10:52   0:00 /usr/sbin/vmware-authdlauncher
+uzcoder     3236  0.2  0.0 317920 10568 ?        Sl   10:52   0:09 ibus-daemon --panel disable --xim
+uzcoder     3240  0.0  0.0 169424  8532 ?        Sl   10:52   0:00 /usr/libexec/ibus-memconf
+uzcoder     3241  0.1  0.2 281032 33396 ?        Sl   10:52   0:04 /usr/libexec/ibus-extension-gtk3
+uzcoder     3243  0.0  0.1 203332 29780 ?        Sl   10:52   0:00 /usr/libexec/ibus-x11 --kill-daemon
+uzcoder     3245  0.0  0.0 390624  8540 ?        Sl   10:52   0:00 /usr/libexec/ibus-portal
+uzcoder     3257  0.0  0.0 162964  7368 ?        Sl   10:52   0:01 /usr/libexec/at-spi2-registryd --use-gnome-session
+uzcoder     3261  0.0  0.0 238468  4588 ?        Ssl  10:52   0:00 /usr/libexec/xdg-permission-store
+uzcoder     3264  0.0  0.1 581772 20956 ?        Sl   10:52   0:00 /usr/libexec/gnome-shell-calendar-server
+uzcoder     3272  0.0  0.1 942208 25840 ?        Ssl  10:52   0:00 /usr/libexec/evolution-source-registry
+uzcoder     3281  0.0  0.0 156464  5720 ?        Sl   10:52   0:00 /usr/libexec/dconf-service
+uzcoder     3286  0.0  0.1 841696 30548 ?        Ssl  10:52   0:00 /usr/libexec/evolution-calendar-factory
+uzcoder     3302  0.0  0.1 676220 29588 ?        Ssl  10:52   0:00 /usr/libexec/evolution-addressbook-factory
+uzcoder     3320  0.0  0.1 2933376 27364 ?       Sl   10:52   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+uzcoder     3332  0.0  0.0 320548 10924 ?        Sl   10:52   0:00 /usr/libexec/gvfsd-trash --spawner :1.4 /org/gtk/gvfs/exec_spaw/0
+uzcoder     3345  0.0  0.0 316868  8940 ?        Ssl  10:52   0:00 /usr/libexec/gsd-a11y-settings
+uzcoder     3346  0.0  0.1 583680 32020 ?        Ssl  10:52   0:00 /usr/libexec/gsd-color
+uzcoder     3347  0.0  0.1 377248 17032 ?        Ssl  10:52   0:00 /usr/libexec/gsd-datetime
+uzcoder     3348  0.0  0.0 317040  9416 ?        Ssl  10:52   0:00 /usr/libexec/gsd-housekeeping
+uzcoder     3349  0.0  0.1 351276 30032 ?        Ssl  10:52   0:00 /usr/libexec/gsd-keyboard
+uzcoder     3351  0.0  0.2 693560 33436 ?        Ssl  10:52   0:00 /usr/libexec/gsd-media-keys
+uzcoder     3352  0.0  0.1 351680 31044 ?        Ssl  10:52   0:00 /usr/libexec/gsd-power
+uzcoder     3353  0.0  0.0 251100 11180 ?        Ssl  10:52   0:00 /usr/libexec/gsd-print-notifications
+uzcoder     3355  0.0  0.0 459968  6016 ?        Ssl  10:52   0:00 /usr/libexec/gsd-rfkill
+uzcoder     3356  0.0  0.0 238376  5840 ?        Ssl  10:52   0:00 /usr/libexec/gsd-screensaver-proxy
+uzcoder     3357  0.0  0.0 471912 12960 ?        Ssl  10:52   0:00 /usr/libexec/gsd-sharing
+uzcoder     3358  0.0  0.0 321028 10432 ?        Ssl  10:52   0:00 /usr/libexec/gsd-smartcard
+uzcoder     3366  0.0  0.0 324728 11072 ?        Ssl  10:52   0:00 /usr/libexec/gsd-sound
+uzcoder     3369  0.0  0.0 390760  9228 ?        Ssl  10:52   0:00 /usr/libexec/gsd-usb-protection
+uzcoder     3370  0.0  0.1 350808 29972 ?        Ssl  10:52   0:00 /usr/libexec/gsd-wacom
+uzcoder     3378  0.0  0.0 321224 10432 ?        Ssl  10:52   0:00 /usr/libexec/gsd-wwan
+uzcoder     3380  0.0  0.1 352136 31340 ?        Ssl  10:52   0:00 /usr/libexec/gsd-xsettings
+uzcoder     3388  0.0  0.3 645172 58864 ?        Sl   10:52   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+uzcoder     3399  0.0  0.0 231800  5972 ?        Sl   10:52   0:00 /usr/libexec/gsd-disk-utility-notify
+uzcoder     3427  0.0  0.0 345052 14840 ?        Sl   10:52   0:00 /usr/libexec/gsd-printer
+uzcoder     3465  0.0  0.0 169416  9212 ?        Sl   10:52   0:02 /usr/libexec/ibus-engine-simple
+uzcoder     3532  0.0  0.3 867064 56824 ?        Sl   10:52   0:00 /usr/bin/gnome-calendar --gapplication-service
+uzcoder     3603  2.8  3.2 1607016 517528 ?      SLl  10:52   1:43 telegram-desktop --
+uzcoder     3624  0.0  0.0 460292  6440 ?        Ssl  10:52   0:00 /usr/libexec/xdg-document-portal
+uzcoder     4635  0.0  0.0 539460 11056 ?        Ssl  10:52   0:00 /usr/libexec/xdg-desktop-portal
+uzcoder     4673  0.0  0.1 499368 31660 ?        Ssl  10:52   0:00 /usr/libexec/xdg-desktop-portal-gtk
+uzcoder     4784  5.0  2.0 17483604 324920 ?     SLl  10:53   3:04 /opt/google/chrome/chrome --enable-crashpad https://forms.gle/MT8Pk1DeuiHKAsgN9
+uzcoder     4789  0.0  0.0  11096   516 ?        S    10:53   0:00 cat
+uzcoder     4790  0.0  0.0  11096   576 ?        S    10:53   0:00 cat
+uzcoder     4792  0.0  0.0 16799816 2964 ?       Sl   10:53   0:00 /opt/google/chrome/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/uzcoder/.config/google-chrome/Crash Reports --metrics-dir=/home/uzcoder/.config/google-chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 20.04.4 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=101.0.4951.54 --initial-client-fd=5 --shared-client-connection
+uzcoder     4794  0.0  0.0 16790580 3056 ?       Sl   10:53   0:00 /opt/google/chrome/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/uzcoder/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 20.04.4 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=101.0.4951.54 --initial-client-fd=4 --shared-client-connection
+uzcoder     4800  0.0  0.3 17048520 56552 ?      S    10:53   0:00 /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --change-stack-guard-on-fork=enable --enable-crashpad
+uzcoder     4801  0.0  0.3 17048512 57056 ?      S    10:53   0:00 /opt/google/chrome/chrome --type=zygote --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --change-stack-guard-on-fork=enable --enable-crashpad
+uzcoder     4802  0.0  0.0 16803352 7688 ?       S    10:53   0:00 /opt/google/chrome/nacl_helper
+uzcoder     4805  0.0  0.0 17048540 15908 ?      S    10:53   0:00 /opt/google/chrome/chrome --type=zygote --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --change-stack-guard-on-fork=enable --enable-crashpad
+uzcoder     4831  4.9  1.3 17959528 214804 ?     Sl   10:53   3:00 /opt/google/chrome/chrome --type=gpu-process --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --change-stack-guard-on-fork=enable --gpu-preferences=WAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder     4833  1.0  0.6 17121500 111884 ?     Sl   10:53   0:36 /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072 --enable-crashpad
+uzcoder     5648  0.0  0.2 17098116 47380 ?      Sl   10:53   0:01 /opt/google/chrome/chrome --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder     5732  0.0  0.5 25694408 89052 ?      Sl   10:53   0:00 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --extension-process --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --launch-time-ticks=45879651 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder     5760  0.1  0.6 25703760 99324 ?      Sl   10:53   0:05 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --extension-process --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=6 --launch-time-ticks=45932140 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder     5801  0.9  0.9 25735532 148468 ?     Sl   10:53   0:36 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=11 --launch-time-ticks=46114811 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder     5882  0.0  0.5 25694404 84448 ?      Sl   10:53   0:00 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --extension-process --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=20 --launch-time-ticks=50126288 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder     6754  0.0  0.0 165116  6528 ?        Ssl  10:53   0:00 /usr/libexec/gvfsd-metadata
+uzcoder     6761  0.0  0.2 426916 36260 ?        Sl   10:53   0:00 update-notifier
+uzcoder     7656  0.0  0.6 25718660 110092 ?     Sl   10:54   0:01 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=24 --launch-time-ticks=105581306 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder     8580  2.2  1.0 29956856 162776 ?     Sl   10:54   1:18 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=38 --launch-time-ticks=112677613 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder    14445  0.1  0.7 25707152 117164 ?     Sl   10:56   0:06 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=48 --launch-time-ticks=265337762 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder    19421  0.1  0.3 966868 52808 ?        Ssl  10:58   0:03 /usr/libexec/gnome-terminal-server
+uzcoder    19432  0.0  0.0  13880  5376 pts/0    Ss   10:58   0:00 bash
+uzcoder    21734  0.1  0.6 25707308 110796 ?     Sl   10:59   0:03 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=53 --launch-time-ticks=442314616 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder    21906  0.3  0.9 29944560 156380 ?     Sl   10:59   0:10 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=55 --launch-time-ticks=442444693 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder    22805  1.8  0.9 25712984 156660 ?     Sl   11:00   0:58 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=63 --launch-time-ticks=482432627 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder    23651  0.3  0.9 25713068 153872 ?     Sl   11:00   0:10 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=64 --launch-time-ticks=491467361 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+root       31825  0.0  0.0      0     0 ?        I<   11:04   0:02 [kworker/u17:0-i915_flip]
+uzcoder    60757  0.4  0.8 25710260 141040 ?     Sl   11:16   0:09 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=77 --launch-time-ticks=1465383026 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+root       70415  0.0  0.0      0     0 ?        I    11:20   0:00 [kworker/3:2-mm_percpu_wq]
+uzcoder    70430  0.6  0.8 25708852 140376 ?     Sl   11:21   0:11 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=82 --launch-time-ticks=1714551682 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder    71259  0.0  0.6 25703348 97520 ?      Sl   11:21   0:00 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=84 --launch-time-ticks=1729930196 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder    71315  3.0  1.1 25753428 186040 ?     Sl   11:21   0:59 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=87 --launch-time-ticks=1737849162 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder    71349  0.0  0.5 25702748 93044 ?      Sl   11:21   0:00 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=88 --launch-time-ticks=1740606001 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+root       72199  0.0  0.0      0     0 ?        I    11:21   0:00 [kworker/0:0-events]
+root       77889  0.0  0.0      0     0 ?        I    11:24   0:00 [kworker/1:2-events]
+root       79534  0.0  0.0      0     0 ?        I    11:24   0:00 [kworker/7:1-events]
+root       94922  0.0  0.0      0     0 ?        I    11:31   0:00 [kworker/u16:2-i915]
+root      104553  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/5:0-events]
+uzcoder   107770  0.4  0.8 25708408 142536 ?     Sl   11:36   0:05 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=99 --launch-time-ticks=2665405586 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+root      109473  0.0  0.0      0     0 ?        I    11:37   0:00 [kworker/0:2-events]
+root      109476  0.0  0.0      0     0 ?        I    11:37   0:00 [kworker/4:0-events]
+uzcoder   119303  0.8  0.9 29929388 153924 ?     Sl   11:41   0:06 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=111 --launch-time-ticks=2965408158 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+root      120946  0.0  0.0      0     0 ?        I    11:42   0:00 [kworker/2:2-events]
+root      124960  0.0  0.0      0     0 ?        I    11:44   0:00 [kworker/7:0-events]
+root      125759  0.0  0.0      0     0 ?        I<   11:44   0:00 [kworker/u17:2-rb_allocator]
+root      126579  0.0  0.0      0     0 ?        I    11:45   0:00 [kworker/u16:0-ext4-rsv-conversion]
+uzcoder   126613  8.6  0.9 25711076 159764 ?     Sl   11:45   0:45 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=116 --launch-time-ticks=3159378036 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder   126636  0.0  0.4 17353364 69948 ?      Sl   11:45   0:00 /opt/google/chrome/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072 --enable-crashpad
+root      129128  0.0  0.0      0     0 ?        I    11:46   0:00 [kworker/3:0-events]
+root      129129  0.0  0.0      0     0 ?        I    11:46   0:00 [kworker/4:2-events]
+uzcoder   130781  3.1  0.8 25700912 143196 ?     Sl   11:46   0:13 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=123 --launch-time-ticks=3265406245 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+root      133289  0.0  0.0      0     0 ?        I    11:47   0:00 [kworker/5:2-events]
+root      134100  0.0  0.0      0     0 ?        I    11:48   0:00 [kworker/1:0-mm_percpu_wq]
+root      138205  0.0  0.0      0     0 ?        I    11:50   0:00 [kworker/7:2-mm_percpu_wq]
+root      139046  0.1  0.0      0     0 ?        I<   11:50   0:00 [kworker/u17:1-rb_allocator]
+uzcoder   139870  0.0  0.2 21276540 41772 ?      Sl   11:50   0:00 /opt/google/chrome/chrome --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder   139882  1.9  0.8 25719192 139252 ?     Sl   11:50   0:03 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=135 --launch-time-ticks=3495460980 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder   140727  1.5  0.6 25694556 110348 ?     Sl   11:51   0:02 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=137 --launch-time-ticks=3516058012 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder   140741  5.2  1.0 25742960 168804 ?     Sl   11:51   0:08 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=138 --launch-time-ticks=3519331974 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder   141551  0.2  0.5 25696600 92660 ?      Sl   11:51   0:00 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=139 --launch-time-ticks=3522263756 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder   141604  0.2  0.5 25694552 91340 ?      Sl   11:51   0:00 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=140 --launch-time-ticks=3534936996 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder   141609  0.2  0.5 25694556 92620 ?      Sl   11:51   0:00 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=141 --launch-time-ticks=3534945678 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder   141616  1.0  0.6 25694556 100444 ?     Sl   11:51   0:01 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=142 --launch-time-ticks=3534967262 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder   141621  0.3  0.5 25694552 93928 ?      Sl   11:51   0:00 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=143 --launch-time-ticks=3534980570 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder   141653  0.4  0.5 25710944 92644 ?      Sl   11:51   0:00 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=144 --launch-time-ticks=3535029853 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder   141666  0.5  0.6 25694544 98524 ?      Sl   11:51   0:00 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=145 --launch-time-ticks=3535046179 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder   141679  0.2  0.5 25694544 90768 ?      Sl   11:51   0:00 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=146 --launch-time-ticks=3535082480 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder   141699  0.1  0.5 25694400 85796 ?      Sl   11:51   0:00 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=147 --launch-time-ticks=3535431487 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+root      141712  0.0  0.0      0     0 ?        I    11:51   0:00 [kworker/2:1-mm_percpu_wq]
+uzcoder   141771  2.7  0.6 25720496 108640 ?     Sl   11:51   0:04 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=151 --launch-time-ticks=3537045627 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder   141784  4.0  0.9 25726480 152884 ?     Sl   11:51   0:06 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=152 --launch-time-ticks=3537671805 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+root      142639  0.0  0.0      0     0 ?        I    11:51   0:00 [kworker/0:1-events]
+uzcoder   142659  0.2  0.6 25710944 97288 ?      Sl   11:51   0:00 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=154 --launch-time-ticks=3557601019 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder   143502  0.2  0.5 25694556 93856 ?      Sl   11:51   0:00 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=157 --launch-time-ticks=3565366363 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder   143519  2.8  0.8 25700016 135060 ?     Sl   11:51   0:03 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=158 --launch-time-ticks=3565634527 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder   143584  4.3  0.9 25720692 160844 ?     Sl   11:52   0:04 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=161 --launch-time-ticks=3583178283 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder   144394  4.0  0.8 25700012 136020 ?     Sl   11:52   0:04 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=162 --launch-time-ticks=3586689801 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+root      144409  0.0  0.0      0     0 ?        I    11:52   0:00 [kworker/4:1-events]
+uzcoder   144446  5.6  0.9 25747468 153928 ?     Sl   11:52   0:04 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=165 --launch-time-ticks=3604429069 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+uzcoder   145288  0.0  0.4 25694400 65224 ?      Sl   11:52   0:00 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=4792 --enable-crash-reporter=c91cea16-71f6-4bdf-a9aa-fcb322d18de3, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=167 --launch-time-ticks=3613470406 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2169380704539199831,12757178732771691791,131072
+root      146152  0.0  0.0      0     0 ?        I    11:53   0:00 [kworker/3:1-mm_percpu_wq]
+root      146956  0.0  0.0      0     0 ?        I    11:53   0:00 [kworker/5:1-events]
+uzcoder   147795  0.0  0.0  14364  3308 pts/0    R+   11:53   0:00 ps aux
