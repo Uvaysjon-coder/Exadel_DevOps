@@ -3,9 +3,7 @@
 
 2. Situation: Your PC is connected to your router (with access to the Internet) via
 WIFI. And you realize that your PC doesn't have SSH access to your server on
-the Internet.
-
-Please describe all steps for troubleshooting this issue in the order of your
+the Internet. Please describe all steps for troubleshooting this issue in the order of your
 checking. Add this list of steps as plain text in a new file and push it to your github
 repository.
 
