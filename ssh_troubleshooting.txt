@@ -1,0 +1,125 @@
+Secure Shell, sometimes referred to as Secure Socket Shell, is a protocol which allows you to connect securely 
+to a remote computer or a server by using a text-based interface.
+
+In order to establish an SSH connection, you need two components: a client and the corresponding server-side component. 
+An SSH client is an application you install on the computer which you will use to connect to another computer or a server. 
+The client uses the provided remote host information to initiate the connection and if the credentials are verified, establishes the encrypted connection.
+
+Since creating an SSH connection requires both a client and a server component, you need to make sure they are installed on the local and the remote machine, respectively. 
+An open source SSH tool—widely used for Linux distributions— is OpenSSH. 
+Installing OpenSSH is relatively easy. 
+It requires access to the terminal on the server and the computer that you use for connecting.
+Note that Ubuntu does not have SSH server installed by default.
+
+Before you proceed with installing an SSH client, make sure it is not already installed. Many Linux distributions already have an SSH client. For Windows machines, you can install PuTTY or any other client of your choice to gain access to a server.
+
+To check if the client is available on your Linux-based system, you will need to:
+
+Load an SSH terminal. You can either search for “terminal” or press CTRL + ALT + T on your keyboard.
+Type in ssh and press Enter in the terminal.
+If the client is installed, you will receive a response that looks like this:
+username@host:~$ ssh
+
+usage: ssh [-1246AaCfGgKkMNnqsTtVvXxYy] [-b bind_address] [-c cipher_spec]
+[-D [bind_address:]port] [-E log_file] [-e escape_char]
+[-F configfile] [-I pkcs11] [-i identity_file]
+[-J [user@]host[:port]] [-L address] [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port] [-Q query_option] [-R address] [-S ctl_path] [-W host:port] [-w local_tun[:remote_tun]]
+[user@]hostname [command]
+
+username@host:~$
+
+This means that you are ready to remotely connect to a physical or virtual machine. Otherwise, you will have to install the OpenSSH client:
+
+Run the following command to install the OpenSSH client on your computer:
+sudo apt-get install openssh-client
+Type in your superuser password when asked.
+Hit Enter to complete the installation.
+You are now able to SSH into any machine with the server-side application on it, provided that you have the necessary privileges to gain access, as well as the hostname or IP address.
+
+How to Install an OpenSSH Server
+In order to accept SSH connections, a machine needs to have the server-side part of the SSH software toolkit.
+
+If you first want to check if OpenSSH server is available on the Ubuntu system of the remote computer that needs to accept SSH connections, you can try to connect to the local host:
+
+Open the terminal on the server machine. You can either search for “terminal” or press CTRL + ALT + T on your keyboard.
+Type in ssh localhost and hit enter.
+For the systems without the SSH server installed the response will look similar to this:
+username@host:~$ ssh localhost
+ssh: connect to host localhost port 22: Connection refused username@host:~$
+
+If the above is the case, you will need to install the OpenSSH server. Leave the terminal open and:
+
+Run the following command to install the SSH server:
+sudo apt-get install openssh-server ii.
+
+Type in your superuser password when asked.
+Enter and Y to allow the installation to continue after the disk space prompt.
+The required support files will be installed, and then you can check if the SSH server is running on the machine by typing this command:
+
+sudo service ssh status
+
+The response in the terminal should look similar to this if the SSH service is now running properly:
+
+username@host:-$ sudo service ssh status
+• ssh.service - OpenBSD Secure Shell server
+Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enab
+Active: active (running) since Fr 2018-03-12 10:53:44 CET; 1min 22s ago Process: 1174 ExecReload=/bin/kill -HUP $MAINPID (code=exited, status=0/SUCCES
+
+Main PID: 3165 (sshd)
+
+Another way to test if the OpenSSH server is installed properly and will accept connections is to try running the ssh localhost command again in your terminal prompt. The response will look similar to this screen when you run the command for the first time:
+
+username@host:~$ ssh localhost
+
+The authenticity of host 'localhost (127.0.0.1)' can't be established. ECDSA key fingerprint is SHA256:9jqmhko9Yo1EQAS1QeNy9xKceHFG5F8W6kp7EX9U3Rs. Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'localhost' (ECDSA) to the list of known hosts.
+
+username@host:~$
+
+Enter yes or y to continue.
+
+Congratulations! You have set up your server to accept SSH connection requests from a different
+computer using an SSH client.
+
+TIP
+
+You can now edit the SSH daemon configuration file, for example, you can change the default port for SSH connections. In the terminal prompt, run this command:
+
+sudo nano /etc/ssh/sshd_config
+
+The configuration file will open in the editor of your choice. In this case, we used Nano.
+
+If you need to install Nano, run this command:
+
+sudo apt-get install nano
+
+Please note that you need to restart SSH service every time you make any changes to the sshd_config file by running this command:
+
+sudo service ssh restart.
+
+Now that you have the OpenSSH client and server installed on every machine you need, you can establish a secure remote connection with your servers. To do so:
+
+Open the SSH terminal on your machine and run the following command: ssh your_username@host_ip_address 
+
+If the username on your local machine matches the one on the server you are trying to connect to, you can just type: ssh host_ip_address And hit Enter.
+Type in your password and hit Enter. Note that you will not get any feedback on the screen while typing. If you are pasting your password, make sure it is stored safely and not in a text file.
+When you are connecting to a server for the very first time, it will ask you if you want to continue connecting. Just type yes and hit Enter. This message appears only this time since the remote server is not identified on your local machine.
+An ECDSA key fingerprint is now added and you are connected to the remote server.
+If the computer you are trying to remotely connect to is on the same network, then it is best to use the private IP address instead of the public IP address. Otherwise, you will have to use the public IP address only. Additionally, make sure that you know the correct TCP port OpenSSH is listening to for connection requests and that the port forwarding settings are correct. The default port is 22 if nobody changed configuration in the sshd_config file. You may also just append the port number after the host IP address.
+
+Here is the example of a connection request using the OpenSSH client. We will specify the port number as well:
+
+username@machine:~$ ssh phoenixnap@185.52.53.222 –p7654 phoenixnap@185.52.53.222’s password:
+
+The authenticity of host '185.52.53.222 (185.52.53.222)' can't be established. ECDSA key fingerprint is SHA256:9lyrpzo5Yo1EQAS2QeHy9xKceHFH8F8W6kp7EX2O3Ps. Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added ' 185.52.53.222' (ECDSA) to the list of known hosts. 
+
+username@host:~$
+
+You are now able to manage and control a remote machine using your terminal. If you have trouble connecting to a remote server, make sure that:
+
+The IP address of the remote machine is correct.
+The port SSH daemon is listening to is not blocked by a firewall or forwarded incorrectly.
+Your username and password are correct.
+The SSH software is installed properly.
+
